@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, url_for
-from openai import OpenAI, DALL_E
+from openai import ChatCompletion, Image
 # assuming you have a module called openai_utils with generate_story and generate_image functions
 from openai_utils import generate_story, generate_image
 
